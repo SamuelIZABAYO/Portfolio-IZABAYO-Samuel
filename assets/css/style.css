@@ -1096,3 +1096,9 @@ section .container {
   justify-content: space-between;
   margin-top: 30px;
 }
+
+@media only screen and (min-width: 768px) {
+  .new-skills-section {
+    width: 50%;
+  }
+}
