@@ -373,13 +373,12 @@ section .container {
   font-family: "Poppins", sans-serif;
 }
 
-.section-title h2::after {
-  content: "";
+.section-title hr {
   width: 120px;
   height: 1px;
-  display: inline-block;
   background: #4ceb95;
-  margin: 4px 10px;
+  opacity: 1 !important;
+  border-top: 0px !important;
 }
 
 .section-title p {
@@ -1089,4 +1088,11 @@ section .container {
 
 .credits a:hover {
   color: #fff;
+}
+
+.new-skills-section {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 30px;
 }
