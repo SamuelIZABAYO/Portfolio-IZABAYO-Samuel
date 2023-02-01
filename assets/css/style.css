@@ -3,7 +3,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: #0F467C;
+  background-color: #0f467c;
   color: #fff;
   position: relative;
   background: transparent;
@@ -12,7 +12,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #0F467C url("") top right no-repeat;
+  background: #0f467c url("") top right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
@@ -147,7 +147,7 @@ h6 {
   left: 0;
   top: 0;
   right: 0;
-  background: #0F467C;
+  background: #0f467c;
 }
 
 #header.header-top .social-links,
@@ -202,7 +202,7 @@ h6 {
   position: relative;
 }
 
-.navbar li+li {
+.navbar li + li {
   margin-left: 30px;
 }
 
@@ -241,7 +241,7 @@ h6 {
 }
 
 .navbar a:hover:before,
-.navbar li:hover>a:before,
+.navbar li:hover > a:before,
 .navbar .active:before {
   visibility: visible;
   width: 25px;
@@ -250,7 +250,7 @@ h6 {
 .navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
-.navbar li:hover>a {
+.navbar li:hover > a {
   color: #fff;
 }
 
@@ -286,7 +286,7 @@ h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: #0F467C;
+  background: #0f467c;
   transition: 0.3s;
   z-index: 999;
   margin-top: 0;
@@ -315,7 +315,7 @@ h6 {
   padding: 12px 20px;
 }
 
-.navbar-mobile li+li {
+.navbar-mobile li + li {
   margin: 0;
 }
 
@@ -347,7 +347,7 @@ section.section-show {
 }
 
 section .container {
-  background: #0F467C;
+  background: #0f467c;
   padding: 30px;
 }
 
@@ -875,7 +875,7 @@ section .container {
   font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li+li {
+.portfolio-details .portfolio-info ul li + li {
   margin-top: 10px;
 }
 
